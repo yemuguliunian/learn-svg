@@ -1,0 +1,28 @@
+{
+  "name": "learn-svg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --ext md,vue --watch .vuepress --watch . --exec vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yemuguliunian/learn-svg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yemuguliunian/learn-svg/issues"
+  },
+  "homepage": "https://github.com/yemuguliunian/learn-svg#readme",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.5.0",
+    "ant-design-vue": "^1.6.0",
+    "core-js": "2.6.11",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "vuepress": "^1.5.0"
+  }
+}
