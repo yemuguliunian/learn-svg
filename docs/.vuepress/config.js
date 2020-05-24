@@ -16,6 +16,10 @@ module.exports = {
                 link: '/attribute/',
             },
             {
+                text: '元素',
+                link: '/element/',
+            },
+            {
                 text: '示例',
                 link: '/examples/简单实现一个圆形进度条',
             },
@@ -34,12 +38,20 @@ module.exports = {
                     ],
                 },
             ],
+            '/element': [
+                {
+                    title: '元素',
+                    collapsable: false,
+                    sidebarDepth: 0,
+                    path: '/element/',
+                },
+            ],
             '/examples': [
                 {
                     title: '示例',
                     collapsable: false,
                     sidebarDepth: 0,
-                    children: ['/examples/简单实现一个圆形进度条'],
+                    children: ['/examples/简单实现一个圆形进度条', '/examples/clock'],
                 },
             ],
         },
