@@ -51,7 +51,11 @@ module.exports = {
                     title: '示例',
                     collapsable: false,
                     sidebarDepth: 0,
-                    children: ['/examples/简单实现一个圆形进度条', '/examples/clock'],
+                    children: [
+                        '/examples/简单实现一个圆形进度条',
+                        '/examples/clock',
+                        '/examples/bar',
+                    ],
                 },
             ],
         },
