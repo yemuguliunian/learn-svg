@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --ext md,vue --watch .vuepress --watch . --exec vuepress dev docs",
+    "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
   "repository": {
@@ -21,8 +21,14 @@
     "@vuepress/plugin-back-to-top": "^1.5.0",
     "ant-design-vue": "^1.6.0",
     "core-js": "2.6.11",
-    "nodemon": "^2.0.4",
     "prettier": "^2.0.5",
-    "vuepress": "^1.5.0"
+    "vuepress": "^1.5.0",
+    "watchpack": "1.6.1"
+  },
+  "resolutions": {
+    "watchpack": "1.6.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
   }
 }
